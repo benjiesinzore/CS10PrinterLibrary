@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keypaddialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+
+<!--        android:layout_marginTop="40dp"-->
+<!--        android:layout_marginBottom="30dp"-->
+
+        <LinearLayout
+            android:id="@+id/pk_up_lay"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+            <!--android:layout_marginTop="60dp"-->
+
+            <ImageView
+                android:id="@+id/ivLogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/logo_aqsi" />
+
+            <TextView
+            android:id="@+id/pk_title_sum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="К оплате : 50.00 "
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/pk_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Введите ПИН-код"
+                android:textColor="@color/black"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/pk_ptc_count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:gravity="center">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                >
+                <!--android:layout_marginBottom="2dp"-->
+s
+                <EditText
+                    android:id="@+id/pwdEdtiInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:enabled="false"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:inputType="textMultiLine"
+                    android:paddingRight="25dp"
+                    android:textColor="@color/color_777572"
+                    android:textSize="28sp"
+                    android:background="@color/white"
+                    />
+                <!--android:cursorVisible="true"-->
+                <!--android:textCursorDrawable="@drawable/color_cursor"-->
+                <!--android:background="@drawable/shape_input"-->
+
+                <ImageView
+                    android:id="@+id/pk_ivDel"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:gravity="center_vertical"
+                    android:layout_alignRight="@id/pwdEdtiInput"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/del_draw" />
+
+                <ImageView
+                    android:id="@+id/ivClose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="-5dp"
+                    android:background="@drawable/close_draw"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/replaceLL"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal" />
+
+            <!--<vpos.keypad.StockKeyboardView-->
+            <!--android:id="@+id/keyboard_view"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="218dp"-->
+            <!--android:focusable="true"-->
+            <!--android:focusableInTouchMode="true"-->
+            <!--android:keyTextSize="28sp"-->
+            <!--android:labelTextSize="28sp"-->
+            <!--/>-->
+
+            <!--<vpos.keypad.StockKeyboardView-->
+            <!--android:id="@+id/keyboard_view_pk"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:focusable="true"-->
+            <!--android:focusableInTouchMode="true"-->
+            <!--android:keyTextSize="32sp"-->
+            <!--android:labelTextSize="32sp"-->
+            <!--android:background="@color/color_e6e6e6"-->
+            <!--android:keyBackground="@drawable/key_draw"-->
+            <!--android:keyTextColor="@color/black"-->
+            <!--/>-->
+            <!---->
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
