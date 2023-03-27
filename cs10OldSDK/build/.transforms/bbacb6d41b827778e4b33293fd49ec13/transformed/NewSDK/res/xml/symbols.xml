@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="75dp"
+    android:keyHeight="70dp"
+    android:horizontalGap="1dp"
+    android:verticalGap="1dp" >
+    <!--android:keyWidth="29.3%p"
+    -->
+
+    <!--<Row >-->
+        <!--<Key android:codes="49" android:keyLabel="1" />-->
+        <!--<Key android:codes="50" android:keyLabel="2" />-->
+        <!--<Key android:codes="51" android:keyLabel="3" />-->
+    <!--</Row>-->
+    <!--<Row >-->
+        <!--<Key android:codes="52" android:keyLabel="4" />-->
+        <!--<Key android:codes="53" android:keyLabel="5" />-->
+        <!--<Key android:codes="54" android:keyLabel="6" />-->
+        <!--&lt;!&ndash;<Key android:codes="-3" android:keyLabel="Cancel" />&ndash;&gt;-->
+    <!--</Row>-->
+    <!--<Row >-->
+        <!--<Key android:codes="55" android:keyLabel="7" />-->
+        <!--<Key android:codes="56" android:keyLabel="8" />-->
+        <!--<Key android:codes="57" android:keyLabel="9" />-->
+
+    <!--</Row>-->
+    <!--<Row >-->
+        <!--<Key android:codes="-5"  android:keyIcon="@drawable/delete1" />-->
+        <!--&lt;!&ndash;android:keyLabel="Del"&ndash;&gt;-->
+        <!--<Key android:codes="48" android:keyLabel="0" />-->
+        <!--<Key android:codes="-4"  android:keyLabel="Enter" />-->
+        <!--&lt;!&ndash;android:keyHeight="140dip"&ndash;&gt;-->
+    <!--</Row>-->
+
+
+    <Row>
+        <Key android:codes="49" android:keyLabel="1" />
+        <Key android:codes="50" android:keyLabel="2" />
+        <Key android:codes="51" android:keyLabel="3" />
+        <Key android:codes="-5" android:keyIcon="@drawable/del"  android:keyEdgeFlags="right"   android:isRepeatable="true" />
+    </Row>
+
+    <Row>
+        <Key android:codes="52" android:keyLabel="4" />
+        <Key android:codes="53" android:keyLabel="5" />
+        <Key android:codes="54" android:keyLabel="6" />
+        <Key android:codes="-3" android:keyIcon="@drawable/cancel" android:keyEdgeFlags="right" />
+        <!--android:keyLabel="Cancel"-->
+    </Row>
+
+    <Row>
+        <Key android:codes="55" android:keyLabel="7" />
+        <Key android:codes="56" android:keyLabel="8" />
+        <Key android:codes="57" android:keyLabel="9"  />
+        <Key android:codes="-4" android:keyHeight="140dp"
+            android:keyIcon="@drawable/ok"
+            android:keyEdgeFlags="right" android:isRepeatable="true"
+            />
+        <!--android:keyLabel="Enter"-->
+    </Row>
+
+    <Row>
+        <!--<Key android:codes="9995" android:keyWidth="20.94%p" />-->
+        <!--<Key android:codes="48"   android:keyWidth="63.68%p" android:keyLabel="0" />-->
+        <!--<Key android:codes="48"   android:keyWidth="228dp" android:keyLabel="0"/>-->
+        <!--**********************************************************-->
+        <!--               PK 客户 215dp ，其他 226dp                -->
+        <!--**********************************************************-->
+        <Key android:codes="48"   android:keyWidth="215dp" android:keyLabel="0"/>
+        <!--<Key android:codes="9995" android:keyWidth="20.94%p" />-->
+    </Row>
+
+</Keyboard>
+
+
